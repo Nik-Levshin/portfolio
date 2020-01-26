@@ -1,0 +1,284 @@
+@media (max-width: 1156px) {
+  .about {
+    &-items {
+      display: block;
+    }
+    &-item {
+      display: block;
+      max-width: 70%;
+      margin: 3.5rem auto;
+      &-button {
+        justify-content: space-around;
+      }
+    }
+  }
+  .form {
+    &-content {
+      margin: 0 auto;
+    }
+    img {
+      display: none;
+    }
+  }
+  .news {
+    padding-bottom: 6rem;
+    &-inner {
+      display: block;
+    }
+    &-slider {
+      max-width: 100%;
+      margin-bottom: 3rem;
+    }
+    &-blogs {
+      display: flex;
+      justify-content: space-around;
+      width: 85%;
+    }
+    &-blog {
+      text-align: center;
+    }
+  }
+  .footer {
+    &-inner {
+      display: block;
+    }
+    &-map {
+      margin: 2rem 0 -2rem;
+      min-width: 100%;
+    }
+    &-info {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 50rem;
+      li:before {
+        content: "";
+      }
+      ul a {
+        padding: 0;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .advantages {
+    margin-top: 2rem;
+    &-inner {
+      display: block;
+       margin: -11rem 0 -5rem;
+    }
+    &-item {
+      margin: 10rem auto;
+      max-width: 80%;
+    }
+  }
+}
+@media (max-width: 790px) {
+  .about {
+    &-btn a {
+      margin: 2rem auto -1rem;
+    }
+  }
+  .about-top, .news-top {
+    display: block;
+  }
+}
+@media (max-width: 700px) {
+  .header {
+    .menu ul {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-top: 2rem;
+      z-index: 50;
+      li {
+        display: block;
+        border: 1px solid #fff;
+      }
+      a {
+        display: block;
+        background-color: #ffc222;
+        color: #fff;
+        text-align: center;
+        transition: all 0.2s;
+        &:hover {
+          background-color: darken(#ffc222, 10%);
+        }
+      }
+    }
+    &-top {
+      padding-bottom: 1rem;
+    }
+    &-contacts {
+      text-align: center;
+    }
+    &-btn {
+      float: none;
+      display: block;
+      &:before {
+        display: none;
+      }
+    }
+    &-btn-menu {
+      display: block;
+    }
+  }
+  .slider .slick-btn {
+    display: none !important;
+  }
+  .form {
+    &-inner {
+      padding: 0;
+    }
+    &-box-inner {
+      display: block;
+    }
+    &-box-left {
+      max-width: 100%;
+      margin: 0;
+      .jq-selectbox__select {
+        margin-bottom: 1rem;
+      }
+    }
+    &-box-right {
+      max-width: 100%;
+      margin: 0;
+    }
+  }
+  .news {
+    padding-bottom: 5rem;
+    .slick-next {
+      left: 50%;
+    }
+    .slick-prev {
+      left: 40%;
+    }
+    &-blogs {
+      flex-direction: column;
+      margin-top: 9rem;
+      width: 100%;
+    }
+    &-blog {
+      display: flex;
+      max-width: 100%;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+    &-info {
+      width: 100%;
+      margin-left: 2rem;
+    }
+  }
+  .footer {
+    .header-btn:before {
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .menu ul {
+    display: block !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    &-item {
+      max-width: 100%;
+    }
+    &-title-box {
+      padding-left: 9rem;
+      &:before {
+        width: 7rem;
+      }
+    }
+  }
+    .news {
+    &-slider {
+      padding: 4rem 4.5rem 2.5rem 6rem;
+      margin: 0;
+      .slick-btn {
+        margin: 0;
+      }
+      .slick-prev {
+        left: 37%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about-title-box {
+    text-align: center;
+    padding: 0;
+    &:before {
+      display: none;
+    }
+  }
+  .news {
+    padding-bottom: 2rem;
+    &-slider {
+      max-width: 80%;
+      padding: 4rem 1.5rem 2.5rem 2rem;
+      margin: 0 auto;
+      &-text {
+        font-size: 1.2rem;
+      }
+      &-title {
+        font-size: 1.6rem;
+      }
+    }
+    &-blog {
+      display: block;
+      margin-bottom: 4rem;
+    }
+    &-info {
+      margin: 0;
+    }
+    .slick-btn {
+      margin-top: -2rem;
+    }
+    .slick-prev {
+      left: 25%;
+    }
+    .slick-next {
+      left: 50%;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .slider {
+    &-title {
+      font-size: 2.4rem;
+    }
+    &-text {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    &-btn:before {
+      display: block;
+    }
+    &-email {
+      padding-right: 3rem;
+    }
+  }
+  .news {
+    &-slider {
+      max-width: 100%;
+      &-item {
+        width: 100%;
+      }
+    }
+  }
+  .about {
+    .default-btn {
+      padding: 1rem 1.5rem;  
+    }
+  }
+}
